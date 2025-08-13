@@ -1,15 +1,16 @@
 "use client";
-
-import {ArrowRight} from "@/components/icons";
+import Badge from "@/components/Badge";
 
 export default function ProcessCard({
                                         icon,
                                         title,
                                         desc,
+                                        step,
                                     }: {
     icon: React.ReactNode;
     title: string;
     desc: string;
+    step?: string;
 }) {
     return (
         <div
@@ -21,9 +22,11 @@ export default function ProcessCard({
                 <h3 className="text-base font-semibold text-white/90">{title}</h3>
                 <p className="text-sm text-white/60 leading-relaxed">{desc}</p>
             </div>
-            <button className="mt-auto inline-flex items-center gap-1 text-sm text-white/80 hover:text-white">
-                Ətraflı <ArrowRight className="w-3.5 h-3.5"/>
-            </button>
+            {step && (
+                <div className="mt-auto">
+                    <Badge>{step}</Badge>
+                </div>
+            )}
         </div>
     );
 }

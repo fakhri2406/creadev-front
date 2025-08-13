@@ -6,7 +6,7 @@ export default function Accordion({
     items: { q: string; a: string }[];
 }) {
     return (
-        <div className="divide-y divide-white/10 rounded-xl ring-1 ring-white/10 overflow-hidden bg-white/[0.03]">
+        <div className="divide-y divide-white/10 rounded-xl ring-1 ring-white/10 overflow-hidden bg-[linear-gradient(180deg,rgba(255,255,255,0.06),rgba(255,255,255,0.01))]">
             {items.map((it, idx) => (
                 <details key={idx} className="group">
                     <summary

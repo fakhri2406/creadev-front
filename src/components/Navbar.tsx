@@ -14,7 +14,7 @@ const LINKS = [
 
 export default function Navbar() {
     return (
-        <div className="mt-4">
+        <div className="mt-4 bg-black">
             <Container>
                 <div
                     className="mx-auto max-w-3xl rounded-full border border-white/10 bg-white/5 backdrop-blur-lg text-white shadow-[inset_0_1px_0_rgba(255,255,255,0.12)]">

@@ -13,7 +13,7 @@ export default function ProcessCTA() {
                 <div className="text-white/60 text-xs md:text-sm">Fikrinizdən məhsula qədər addım-addım yol xəritəsi
                 </div>
             </div>
-            <Button variant="primary" size="md">Hazır layihələrimiz <ArrowRight/></Button>
+            <Button variant="primary" size="md">Hazır layihələrimiz</Button>
         </div>
     );
 }

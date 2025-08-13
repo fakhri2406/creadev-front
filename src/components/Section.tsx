@@ -11,12 +11,12 @@ type Props = {
 
 export default function Section({title, subtitle, id, children, className = "", center = false}: Props) {
     return (
-        <section id={id} className={`py-12 sm:py-16 lg:py-24 ${className}`}>
-            <div className="relative rounded-t-2xl overflow-hidden ring-1 ring-white/5 bg-black">
+        <section id={id} className={`py-0 ${className}`}>
+            <div className="relative rounded-t-2xl overflow-hidden bg-black">
                 <div
                     className="pointer-events-none absolute inset-0 bg-gradient-to-b from-white/[0.08] via-white/[0.03] to-transparent"/>
                 <Container>
-                    <div className="grid items-center min-h-[460px] sm:min-h-[520px] lg:min-h-[580px] py-8">
+                    <div className="grid items-center min-h-[520px] sm:min-h-[580px] lg:min-h-[640px] py-14">
                         {(title || subtitle) && (
                             <header className={`mb-10 ${center ? "text-center" : ""}`}>
                                 {subtitle && (
@@ -28,7 +28,9 @@ export default function Section({title, subtitle, id, children, className = "", 
                                 )}
                             </header>
                         )}
-                        {children}
+                        <div className="self-center">
+                            {children}
+                        </div>
                     </div>
                 </Container>
             </div>

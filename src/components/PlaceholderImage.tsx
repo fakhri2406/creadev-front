@@ -18,7 +18,7 @@ export default function PlaceholderImage({className, aspect = "landscape", radiu
     return (
         <div
             className={clsx(
-                "relative bg-white/6 ring-1 ring-white/15 shadow-[inset_0_1px_0_rgba(255,255,255,0.08)]",
+                "relative bg-neutral-900 ring-1 ring-white/15 shadow-[inset_0_1px_0_rgba(255,255,255,0.06)]",
                 aspectMap[aspect],
                 radius === "sm" && "rounded-sm",
                 radius === "md" && "rounded-md",
@@ -28,7 +28,7 @@ export default function PlaceholderImage({className, aspect = "landscape", radiu
                 className,
             )}
         >
-            <div className="pointer-events-none absolute inset-0 bg-gradient-to-tr from-white/8 to-transparent"/>
+            {/* solid placeholder - no transparency overlay */}
             <div className="absolute inset-0 grid place-items-center">
                 <svg width="36" height="36" viewBox="0 0 24 24" fill="none" aria-hidden className="text-white/20">
                     <rect x="3" y="5" width="18" height="14" rx="2" className="fill-current"/>
