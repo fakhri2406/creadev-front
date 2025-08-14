@@ -10,7 +10,7 @@
     --color-foreground: var(--foreground);
     --font-sans: var(--font-poppins);
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-    --tracking-tight: 0em;
+    --tracking-tight: 0.01em;
 }
 
 @media (prefers-color-scheme: dark) {
