@@ -30,7 +30,9 @@ export default function Home() {
                 proqram təminatı şirkəti.
               </p>
               <div className="flex items-center gap-3">
-                <Button variant="secondary" size="lg">Əlaqə saxlamaq</Button>
+                <a href="/contact" className="inline-flex">
+                  <Button variant="secondary" size="lg">Əlaqə saxlamaq</Button>
+                </a>
                 <Button variant="primary" size="lg">Süni intellekt ilə sifariş</Button>
               </div>
             </div>

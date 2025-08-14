@@ -35,9 +35,9 @@ export default function ServicesPage() {
               pricePrimary="650 AZN-dən"
               note="Qiymət tələblərinizdən asılı olaraq dəyişə bilər"
               bullets={[
-                "Sürətli və etibarlı hostinq",
-                "Admin panel və RBAC",
                 "Backend + frontend",
+                "Admin panel və RBAC",
+                "Sürətli və etibarlı hosting",
               ]}
             />
             <ServiceCard
