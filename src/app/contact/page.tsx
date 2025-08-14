@@ -2,7 +2,7 @@ import Section from "@/components/Section";
 import Container from "@/components/Container";
 import Badge from "@/components/Badge";
 import Button from "@/components/Button";
-import { ArrowRight, Target } from "@/components/icons";
+import {ArrowRight, Target} from "@/components/icons";
 
 export const metadata = {
   title: "Əlaqə | creadev.",
@@ -14,11 +14,12 @@ export default function ContactPage() {
   return (
     <main className="bg-black text-white">
       <Section
-        subtitle={<Badge icon={<Target />}>əlaqə</Badge>}
+        subtitle={<Badge icon={<Target/>}>əlaqə</Badge>}
         title={
           <>
             <span className="text-white">bizimlə</span>{" "}
-            <span className="bg-[linear-gradient(180deg,rgba(255,255,255,0.8),rgba(200,200,200,0.55))] bg-clip-text text-transparent">
+            <span
+              className="bg-[linear-gradient(180deg,rgba(255,255,255,0.8),rgba(200,200,200,0.55))] bg-clip-text text-transparent">
               əlaqə
             </span>
           </>
@@ -37,7 +38,7 @@ export default function ContactPage() {
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 text-sm rounded-full border border-white/15 px-4 py-2 text-white/90 hover:bg-white/5"
               >
-                Profilə keçid <ArrowRight />
+                Profilə keçid <ArrowRight/>
               </a>
             </div>
 
@@ -59,11 +60,13 @@ export default function ContactPage() {
             </div>
 
             {/* creadev.ai info */}
-            <div className="md:col-span-2 rounded-2xl ring-1 ring-white/10 bg-white/[0.04] p-5 flex items-center justify-between">
+            <div
+              className="md:col-span-2 rounded-2xl ring-1 ring-white/10 bg-white/[0.04] p-5 flex items-center justify-between">
               <div className="space-y-1">
                 <div className="text-white/90 text-base font-medium">creadev.ai</div>
                 <p className="text-white/70 text-sm max-w-2xl">
-                  Süni intellekt köməkçimiz layihə müraciətlərinizi qəbul edir, lazımi sualları verir və
+                  Süni intellekt köməkçimiz layihə müraciətlərinizi qəbul edir, lazımi sualları verir
+                  və
                   yekun məlumatı birbaşa komandamıza ötürür.
                 </p>
               </div>
