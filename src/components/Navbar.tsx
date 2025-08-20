@@ -20,7 +20,7 @@ export default function Navbar() {
           className="mx-auto max-w-3xl rounded-full border border-white/10 bg-white/5 backdrop-blur-lg text-white shadow-[inset_0_1px_0_rgba(255,255,255,0.12)]">
           <div className="flex items-center justify-between px-3">
             {/* Left: Logo */}
-            <Link href="/public" className="inline-flex items-center gap-2 py-2">
+            <Link href="/" className="inline-flex items-center gap-2 py-2">
               <span className="inline-flex items-center justify-center w-7 h-7 rounded-full bg-white/90 text-black">
                 <LogoGlyph className="w-3.5 h-3.5"/>
               </span>

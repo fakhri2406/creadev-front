@@ -65,9 +65,8 @@ export default function ContactPage() {
               <div className="space-y-1">
                 <div className="text-white/90 text-base font-medium">creadev.ai</div>
                 <p className="text-white/70 text-sm max-w-2xl">
-                  Süni intellekt köməkçimiz layihə müraciətlərinizi qəbul edir, lazımi sualları verir
-                  və
-                  yekun məlumatı birbaşa komandamıza ötürür.
+                  Süni intellekt köməkçimiz layihə müraciətlərinizi qəbul edir, lazımi sualları verir<br/>
+                  və yekun məlumatı birbaşa komandamıza ötürür.
                 </p>
               </div>
               <Button variant="primary" size="md">
